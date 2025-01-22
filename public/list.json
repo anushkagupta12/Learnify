@@ -1,0 +1,91 @@
+[
+    {
+        "id": 1,
+        "name": "Story book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non unde mollitia quisquam consequatur quis labore, qui ab adipisci aliquid eligendi. Rem iusto delectus vitae amet modi eligendi mollitia nostrum.",
+        "price": 0,
+        "category": "Free",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1737178984~exp=1737182584~hmac=1dbd2f6ef6b3b46f01dbea317611e72908987c05116029a086f7f8f377b50906&w=826"
+    },
+
+    {
+        "id": 2,
+        "name": "Comedy book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non unde mollitia quisquam consequatur quis labore, qui ab adipisci aliquid eligendi. Rem iusto delectus vitae amet modi eligendi mollitia nostrum.",
+        "price": 0,
+        "category": "Free",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1737178984~exp=1737182584~hmac=1dbd2f6ef6b3b46f01dbea317611e72908987c05116029a086f7f8f377b50906&w=826"
+    },
+
+    {
+        "id": 3,
+        "name": "Sports book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non unde mollitia quisquam consequatur quis labore, qui ab adipisci aliquid eligendi. Rem iusto delectus vitae amet modi eligendi mollitia nostrum.",
+        "price": 50,
+        "category": "Sports",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1737178984~exp=1737182584~hmac=1dbd2f6ef6b3b46f01dbea317611e72908987c05116029a086f7f8f377b50906&w=826"
+    },
+
+    {
+        "id": 4,
+        "name": "Music book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non unde mollitia quisquam consequatur quis labore, qui ab adipisci aliquid eligendi. Rem iusto delectus vitae amet modi eligendi mollitia nostrum.",
+        "price": 100,
+        "category": "Song",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1737178984~exp=1737182584~hmac=1dbd2f6ef6b3b46f01dbea317611e72908987c05116029a086f7f8f377b50906&w=826"
+    },
+
+    {
+        "id": 5,
+        "name": "Food book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non unde mollitia quisquam consequatur quis labore, qui ab adipisci aliquid eligendi. Rem iusto delectus vitae amet modi eligendi mollitia nostrum.",
+        "price": 200,
+        "category": "Food",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1737178984~exp=1737182584~hmac=1dbd2f6ef6b3b46f01dbea317611e72908987c05116029a086f7f8f377b50906&w=826"
+    },
+
+    {
+        "id": 6,
+        "name": "Science book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non unde mollitia quisquam consequatur quis labore, qui ab adipisci aliquid eligendi. Rem iusto delectus vitae amet modi eligendi mollitia nostrum.",
+        "price": 300,
+        "category": "Science",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1737178984~exp=1737182584~hmac=1dbd2f6ef6b3b46f01dbea317611e72908987c05116029a086f7f8f377b50906&w=826"
+    },
+
+    {
+        "id": 7,
+        "name": "Fiction book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non unde mollitia quisquam consequatur quis labore, qui ab adipisci aliquid eligendi. Rem iusto delectus vitae amet modi eligendi mollitia nostrum.",
+        "price": 150,
+        "category": "Fiction",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1737178984~exp=1737182584~hmac=1dbd2f6ef6b3b46f01dbea317611e72908987c05116029a086f7f8f377b50906&w=826"
+    },
+
+    {
+        "id": 8,
+        "name": "Moral book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non unde mollitia quisquam consequatur quis labore, qui ab adipisci aliquid eligendi. Rem iusto delectus vitae amet modi eligendi mollitia nostrum.",
+        "price": 150,
+        "category": "Moral",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1737178984~exp=1737182584~hmac=1dbd2f6ef6b3b46f01dbea317611e72908987c05116029a086f7f8f377b50906&w=826"
+    },
+
+    {
+        "id": 9,
+        "name": "Physics book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non unde mollitia quisquam consequatur quis labore, qui ab adipisci aliquid eligendi. Rem iusto delectus vitae amet modi eligendi mollitia nostrum.",
+        "price": 400,
+        "category": "Free",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1737178984~exp=1737182584~hmac=1dbd2f6ef6b3b46f01dbea317611e72908987c05116029a086f7f8f377b50906&w=826"
+    },
+
+    {
+        "id": 10,
+        "name": "Math book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum non unde mollitia quisquam consequatur quis labore, qui ab adipisci aliquid eligendi. Rem iusto delectus vitae amet modi eligendi mollitia nostrum.",
+        "price": 500,
+        "category": "Free",
+        "image":"https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1737178984~exp=1737182584~hmac=1dbd2f6ef6b3b46f01dbea317611e72908987c05116029a086f7f8f377b50906&w=826"
+    }
+]
