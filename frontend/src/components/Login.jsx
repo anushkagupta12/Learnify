@@ -16,7 +16,7 @@ function Login() {
             email: data.email,
             password: data.password
         }
-       await axios.post("https://learnify-7klh.onrender.com/user/login", userInfo)
+       await axios.post("https://learnify-7p7l.onrender.com/user/login", userInfo)
         .then((res)=>{
             console.log(res.data)
             if(res.data) {
