@@ -14,7 +14,7 @@ app.use(express.json());
 dotenv.config();
 
 const PORT = process.env.PORT||4000;
-const URI = process.env.MongoDBURI;
+const URI = process.env.MONGODB_URI;
 
 // connect to mongodB
 // try{
@@ -27,7 +27,7 @@ const URI = process.env.MongoDBURI;
 // } catch(error) {
 //     console.log("Error: ", error);
 // }
-mongoose.connect("your-full-uri-here", {
+mongoose.connect(URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
