@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useState } from 'react';
 import Login from './Login';
 import Logout from './Logout';
+import {Link} from 'react-router-dom';
 import { useAuth } from '../context/AuthProvider';
 function Navbar() {
   const [authUser, setAuthUser] = useAuth();
@@ -38,13 +39,13 @@ function Navbar() {
   const navItems = (
     <>
       <li>
-        <a href='/'>Home</a>
+        <Link to= "/">Home</Link>
       </li>
       <li>
-        <a href='/course'>Course</a>
+        <Link to='/course'>Course</Link>
       </li>
       <li>
-        <a href='/contact'>Contact</a>
+        <Link to='/contact'>Contact</Link>
       </li>
       {/* <li>
         <a href='/about'>About</a>
