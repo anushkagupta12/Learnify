@@ -46,9 +46,9 @@ function Navbar() {
       <li>
         <a href='/contact'>Contact</a>
       </li>
-      <li>
+      {/* <li>
         <a href='/about'>About</a>
-      </li>
+      </li> */}
 
     </>
   );

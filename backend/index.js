@@ -27,12 +27,21 @@ const URI = process.env.MongoDBURI;
 // } catch(error) {
 //     console.log("Error: ", error);
 // }
-mongoose.connect("your-full-uri-here", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})
-.then(() => console.log("✅ MongoDB connected successfully!"))
-.catch(err => console.error("❌ MongoDB error:", err));
+// mongoose.connect(URI, {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+// })
+// .then(() => console.log("✅ MongoDB connected successfully!"))
+// .catch(err => console.error("❌ MongoDB error:", err));
+   mongoose.connect(URI)
+  .then(() => console.log("✅ MongoDB connected successfully!"))
+  .catch(err => console.error("❌ MongoDB error:", err));
+  console.log("🔍 MongoDB URI:", JSON.stringify(URI)); // This shows if it's undefined, null, or malformed
+
+if (!URI || (!URI.startsWith('mongodb://') && !URI.startsWith('mongodb+srv://'))) {
+  console.error("❌ Invalid MongoDB URI format");
+  process.exit(1);
+}
 
 // defining routes for
 app.use("/book", bookRoute);
